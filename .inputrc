@@ -1,0 +1,2 @@
+"\e[A": history-search-backward ## shift+up-arrow
+"\e[B": history-search-forward ## shift+down-arrow
