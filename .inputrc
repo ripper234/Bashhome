@@ -1,7 +1,8 @@
 "\e[A": history-search-backward ## shift+up-arrow
 "\e[B": history-search-forward ## shift+down-arrow
 
-# Home/End keys: https://wiki.archlinux.org/index.php/Home_and_End_keys_not_working
+# Home/End keys
+# https://wiki.archlinux.org/index.php/Home_and_End_keys_not_working
 "\e[1~": beginning-of-line
 "\e[4~": end-of-line
 "\e[7~": beginning-of-line
@@ -10,3 +11,12 @@
 "\eOF": end-of-line
 "\e[H": beginning-of-line
 "\e[F": end-of-line
+
+# Ctrl+Left/Right move word
+# http://unix.stackexchange.com/questions/10806/how-to-change-previous-next-word-shortcut-in-bash/10809
+"\e[1;5C": forward-word
+"\e[1;5D": backward-word
+"\eOC": forward-word
+"\eOD": backward-word
+"\eOc": forward-word
+"\eOd": backward-word
