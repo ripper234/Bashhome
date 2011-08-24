@@ -62,6 +62,7 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 
+alias less='less -r'
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
 # sources /etc/bash.bashrc).
@@ -79,4 +80,7 @@ xterm*|rxvt*)
     ;;
 esac
 PS1='\W\$ '
+
+# IntelliJ
+export IDEA_VM_OPTIONS='`realpath ~/.global_config/intellij_9_vm_options`'
 
