@@ -81,6 +81,6 @@ xterm*|rxvt*)
 esac
 PS1='\W\$ '
 
-# IntelliJ
-export IDEA_VM_OPTIONS='`realpath ~/.global_config/intellij_9_vm_options`'
+source ~/.scripts/setjavahome.sh
+
 
