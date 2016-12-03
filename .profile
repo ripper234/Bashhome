@@ -20,3 +20,8 @@ fi
 if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
+
+# Set max mouse acceleration
+#  http://askubuntu.com/questions/255890/how-can-i-adjust-the-mouse-scroll-speed
+xinput set-prop 9 'Device Accel Constant Deceleration' 1
+
